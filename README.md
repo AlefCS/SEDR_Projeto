@@ -14,4 +14,4 @@ O fato de haver um _hardware_ dedicado (ao invés de uma CPU de propósito geral
 
 ## Descrição do Repo
 * HLS: esta pasta contém o arquivo .cpp que representa o código fonte do _core_ do Algoritmo Genético, além das funções que são necessárias para sua execução;
-* RTL: esta pasta contém o projeto do Vivado em que é realizado o _import_ dos arquivos RTL gerados no Vivado HLS e que foram utilizados para realizar uma simulação.
+* RTL: esta pasta contém os códigos fontes em SystemVerilog/Verilog. Dentro desta pasta, temos a pasta 'imports_hls' que contém os arquivos RTL que foram obtidos através da síntese pelo HLS.
